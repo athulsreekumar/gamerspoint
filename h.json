@@ -1,22 +1,29 @@
 {
     "openapi": "3.0.1",
     "info": {
-        "title": "azure fun",
+        "title": "pleaseletthiswork",
+        "description": "Import from \"pleaseletthiswork\" Function App",
         "version": "1.0"
     },
     "servers": [
         {
-            "url": "http://clearcutfuncallthisis-apim.azure-api.net/HttpTrigger2"
-        },
-        {
-            "url": "https://clearcutfuncallthisis-apim.azure-api.net/HttpTrigger2"
+            "url": "https://clearcutfuncallthisis-apim.azure-api.net/pleaseletthiswork"
         }
     ],
     "paths": {
-        "/HttpTrigger1": {
+        "/HttpTrigger2": {
+            "get": {
+                "summary": "HttpTrigger2",
+                "operationId": "get-httptrigger2",
+                "responses": {
+                    "200": {
+                        "description": null
+                    }
+                }
+            },
             "post": {
                 "summary": "HttpTrigger2",
-                "operationId": "operation1",
+                "operationId": "post-httptrigger2",
                 "responses": {
                     "200": {
                         "description": null
