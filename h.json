@@ -1,0 +1,50 @@
+{
+    "openapi": "3.0.1",
+    "info": {
+        "title": "azure function1",
+        "version": "1.0"
+    },
+    "servers": [
+        {
+            "url": "http://clearcutfuncallthisis-apim.azure-api.net/HttpTrigger1"
+        },
+        {
+            "url": "https://clearcutfuncallthisis-apim.azure-api.net/HttpTrigger1"
+        }
+    ],
+    "paths": {
+        "/HttpTrigger1": {
+            "post": {
+                "summary": "HttpTrigger1",
+                "operationId": "operation1",
+                "responses": {
+                    "200": {
+                        "description": null
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "securitySchemes": {
+            "apiKeyHeader": {
+                "type": "apiKey",
+                "name": "Ocp-Apim-Subscription-Key",
+                "in": "header"
+            },
+            "apiKeyQuery": {
+                "type": "apiKey",
+                "name": "subscription-key",
+                "in": "query"
+            }
+        }
+    },
+    "security": [
+        {
+            "apiKeyHeader": []
+        },
+        {
+            "apiKeyQuery": []
+        }
+    ]
+}
