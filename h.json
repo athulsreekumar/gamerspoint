@@ -1,13 +1,13 @@
 {
     "openapi": "3.0.1",
     "info": {
-        "title": "pleaseletthiswork",
+        "title": "onelasttime",
         "description": "Import from \"pleaseletthiswork\" Function App",
         "version": "1.0"
     },
     "servers": [
         {
-            "url": "https://clearcutfuncallthisis-apim.azure-api.net/pleaseletthiswork"
+            "url": "https://clearcutfuncallthisis-apim.azure-api.net/onelasttime"
         }
     ],
     "paths": {
