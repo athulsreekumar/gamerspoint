@@ -1,21 +1,21 @@
 {
     "openapi": "3.0.1",
     "info": {
-        "title": "azure function1",
+        "title": "azure fun",
         "version": "1.0"
     },
     "servers": [
         {
-            "url": "http://clearcutfuncallthisis-apim.azure-api.net/HttpTrigger1"
+            "url": "http://clearcutfuncallthisis-apim.azure-api.net/HttpTrigger2"
         },
         {
-            "url": "https://clearcutfuncallthisis-apim.azure-api.net/HttpTrigger1"
+            "url": "https://clearcutfuncallthisis-apim.azure-api.net/HttpTrigger2"
         }
     ],
     "paths": {
         "/HttpTrigger1": {
             "post": {
-                "summary": "HttpTrigger1",
+                "summary": "HttpTrigger2",
                 "operationId": "operation1",
                 "responses": {
                     "200": {
